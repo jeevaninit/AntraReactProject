@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import ApplystylesusingCondition from './ApplystylesusingCondition';
 import BootstrapComponent from './BootstrapComponent';
+import MuiList from './MuiList';
 
 
 
@@ -16,6 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <BootstrapComponent />
+   <MuiList />
   </React.StrictMode>
 );
 
