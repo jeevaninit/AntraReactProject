@@ -7,6 +7,10 @@ import reportWebVitals from './reportWebVitals';
 import ApplystylesusingCondition from './ApplystylesusingCondition';
 import BootstrapComponent from './BootstrapComponent';
 import MuiList from './MuiList';
+import Axios from './Axios';
+import UsersList from './Axios';
+import UseRef from './UseRef';
+import Addvalue from './Addvalue';
 
 
 
@@ -16,8 +20,11 @@ import MuiList from './MuiList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <BootstrapComponent />
-   <MuiList />
+  <UseRef />
+  <Addvalue />
+    {/* <Axios /> */}
+{/*     <UsersList /> */}
+
   </React.StrictMode>
 );
 
