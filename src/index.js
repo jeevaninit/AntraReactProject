@@ -1,30 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import reportWebVitals from './reportWebVitals';
 import ApplystylesusingCondition from './ApplystylesusingCondition';
-import BootstrapComponent from './BootstrapComponent';
-import MuiList from './MuiList';
-import Axios from './Axios';
-import UsersList from './Axios';
-import UseRef from './UseRef';
-import Addvalue from './Addvalue';
 
 
+import Component from './redux/Component';
+import store from './redux/store';
+import {Provider} from 'react-redux';
+import Counter from './Counter';
 
-
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('myroot'));
 root.render(
   <React.StrictMode>
-  <UseRef />
-  <Addvalue />
-    {/* <Axios /> */}
-{/*     <UsersList /> */}
-
+      <Counter />
+{/*     <Provider store={store}>
+    <Component />
+    </Provider> */}
   </React.StrictMode>
 );
 

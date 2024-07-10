@@ -1,11 +1,13 @@
 import React from 'react'
 
-export const Headercontent=()=>{
+export const Headercontent=({props})=>{
   return(
     <>
     <div>
     <h3>ITproSkillSet</h3>
+    <h1>Welcome to React Test Cases</h1>
     <p>Training and Development</p>
+{/*     {props.nm} */}
     </div>
     </>
   )

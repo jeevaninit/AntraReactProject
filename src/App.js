@@ -7,9 +7,13 @@ import Footer from './Footer'
 
 
 const App = () => {
+
+  const name='jeevan';
   return (
     <div>
-      <Header />
+      <h1>Welcome to React Test Cases</h1>
+
+  {/*     <Header nm={name} /> */}
 
       <Nav />
       <Container />
