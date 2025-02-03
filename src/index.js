@@ -14,10 +14,11 @@ import Counter from './Counter';
 const root = ReactDOM.createRoot(document.getElementById('myroot'));
 root.render(
   <React.StrictMode>
-      <Counter />
-{/*     <Provider store={store}>
+      {/* <Counter />    */} 
+      
+    <Provider store={store}>
     <Component />
-    </Provider> */}
+    </Provider> 
   </React.StrictMode>
 );
 
